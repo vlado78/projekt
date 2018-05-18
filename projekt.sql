@@ -133,12 +133,12 @@ insert into vozilo (sifra,broj_sasije,vlasnik,datum_prve_registracije,registarsk
 (null,'WZZZW123555KOL','9','2011-05-05','GHJ222G','FERRARI','LA FERRARI');
 
 
-update zaposlenik set nadredjeni=1 where sifra=4;
-update zaposlenik set nadredjeni=1 where sifra=5;
-update zaposlenik set nadredjeni=2 where sifra=6;
-update zaposlenik set nadredjeni=2 where sifra=7;
-update zaposlenik set nadredjeni=3 where sifra=8;
-update zaposlenik set nadredjeni=3 where sifra=9;
+update zaposlenik set nadredjeni=1, radionica=1 where sifra=4;
+update zaposlenik set nadredjeni=1, radionica=1 where sifra=5;
+update zaposlenik set nadredjeni=2, radionica=2 where sifra=6;
+update zaposlenik set nadredjeni=2, radionica=2 where sifra=7;
+update zaposlenik set nadredjeni=3, radionica=3 where sifra=8;
+update zaposlenik set nadredjeni=3, radionica=3 where sifra=9;
 
 
 
