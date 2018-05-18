@@ -76,26 +76,24 @@ napomena varchar (200)
 );
 
 
-
-
 alter table zaposlenik add foreign key (radionica) references radionica(sifra);
-#alter table radionica add foreign key (radninalog) references radninalog(sifra);
 
 alter table radninalog add foreign key (radionica) references radionica(sifra);
 alter table radninalog add foreign key (vozilo) references vozilo(sifra);
 
-
-
 alter table zaposlenikradninalog add foreign key (zaposlenik) references zaposlenik(sifra);
 alter table zaposlenikradninalog add foreign key (radninalog) references radninalog(sifra);
-
-
 
 alter table vozilo add foreign key (vlasnik) references vlasnik(sifra);
 
 alter table zaposlenik add foreign key (nadredjeni) references zaposlenik(sifra);
 
 
+
+insert into radionica (sifra,naziv,datumosnutka) values
+(null,'mehanika','2018-04-16'),
+(null,'elektrika','2018-04-16'),
+(null,'limarija','2018-04-16');
 
 
 
