@@ -119,6 +119,23 @@ insert into vlasnik (sifra,ime,prezime,ulica_i_broj,mjesto,broj_mobitela,email,o
 (null,'Hercul','Stević','Sarajevska ulica 34','Osijek','0981111121','sarajlija@gmail.com','12345678910');
 
 
+insert into vozilo (sifra,broj_sasije,vlasnik,datum_prve_registracije,registarska_oznaka,marka_vozila,oznaka_modela) values
+(null,'WDB2110701A123456','1','2004-05-05','OS123AH','MERCEDES','E55AMG'),
+(null,'WDB2110701A525252','1','2006-11-05','OS122AH','MERCEDES','E55AMG'),
+(null,'WDB2050701A123456','1','2014-05-05','OS178F','MERCEDES','C220CDI'),
+(null,'WDB9612541C125844','2','2018-04-15','OS991','MERCEDES','ACTROS 1841'),
+(null,'YGHZ2565HHJ001','3','2018-02-25','NA558GT','OPEL','VECTRA 2,0 GSI'),
+(null,'FG12KJ2112LLKO1','4','2011-02-02','BM25811','CITROEN','XM'),
+(null,'121GGG111GUOUOUOU','5','2011','OS111AB','ZASTAVA','750'),
+(null,'FGRRTAJJE164646','6','2001-11-28','GY2222F','SUZUKI','VITARA'),
+(null,'25HH255HKOK1235','7','2017-05-04','KR255KR','KIA','SPORTAGE'),
+(null,'GHJJ98569856985','8','2015-12-12','BM1111BM','FERRARI','355'),
+(null,'WZZZW123555KOL','9','2011-05-05','GHJ222G','FERRARI','LA FERRARI');
+
+
+
+
+
 
 
 
