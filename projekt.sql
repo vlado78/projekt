@@ -140,6 +140,10 @@ update zaposlenik set nadredjeni=2, radionica=2 where sifra=7;
 update zaposlenik set nadredjeni=3, radionica=3 where sifra=8;
 update zaposlenik set nadredjeni=3, radionica=3 where sifra=9;
 
+update zaposlenik set radionica=1 where sifra=1;
+update zaposlenik set radionica=2 where sifra=2;
+update zaposlenik set radionica=3 where sifra=3;
+
 
 
 
