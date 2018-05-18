@@ -106,7 +106,6 @@ insert into zaposlenik (sifra,ime,prezime,ulica_i_broj,mjesto,broj_mobitela,emai
 (null,'Karolina','Antolović','Josipa Broza Tita 25','Osijek','098111118','Karolina@gmail.com','1998-05-25','2010-08-06','12345678908','8'),
 (null,'Antonela','Harambaša','Vinkovačka ulica 1','Osijek','098111119','a1997@gmail.com','1997-04-20','2018-08-06','12345678909','9');
 
-
 insert into vlasnik (sifra,ime,prezime,ulica_i_broj,mjesto,broj_mobitela,email,oib) values
 (null,'Robert','Marjanović','Kneza Branimira 78','Osijek','091123654789','robi@yahoo.com','22556633221'),
 (null,'Alen','Marković','25.svibnja 5' ,'Osijek','091225545554','alen@yahoo.com','25454569874'),
@@ -117,7 +116,6 @@ insert into vlasnik (sifra,ime,prezime,ulica_i_broj,mjesto,broj_mobitela,email,o
 (null,'Ivan','Kotromanović','Gajeva 5' ,'Bilje','098565656','birtija@gmail.com','22846575251'),
 (null,'James','Bond','Baruna Trenka 1','Osijek','0981111120','007@gmail.com','12345678910'),
 (null,'Hercul','Stević','Sarajevska ulica 34','Osijek','0981111121','sarajlija@gmail.com','12345678910');
-
 
 insert into vozilo (sifra,broj_sasije,vlasnik,datum_prve_registracije,registarska_oznaka,marka_vozila,oznaka_modela) values
 (null,'WDB2110701A123456','1','2004-05-05','OS123AH','MERCEDES','E55AMG'),
@@ -143,6 +141,18 @@ update zaposlenik set nadredjeni=3, radionica=3 where sifra=9;
 update zaposlenik set radionica=1 where sifra=1;
 update zaposlenik set radionica=2 where sifra=2;
 update zaposlenik set radionica=3 where sifra=3;
+
+insert into radni_nalog (sifra,radionica,zaposlenik,vozilo,kilometraza,opis_kvara,datum_pocetka) values
+(null,'1','4','1','205123','nešto lupa u prednjem trapu sa lijeve strane','2008-04-16'),
+(null,'1','5','4','141568','redovni servis na vozilu','2008-04-16'),
+(null,'2','6','7','125','update navigacije i pranje vozila','2008-04-16'),
+(null,'2','7','10','1','svijetli kontrolna lampica elektronike ABS-a','2008-04-16'),
+(null,'3','8','10','1','popraviti oštećenje laka na prednjem braniku','2008-04-16'),
+(null,'3','9','9','123','procijena popravka nakon udesa','2008-04-16');
+
+
+
+
 
 
 
