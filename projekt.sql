@@ -23,7 +23,7 @@ datum_rođenja datetime ,
 datum_pocetka_rada datetime not null ,
 oib varchar (11) ,
 broj_ugovora varchar(20) not null,
-nadredjeni int not null,
+nadredjeni int ,
 radionica int ,
 radni_nalog int,
 napomena varchar (200)
@@ -95,7 +95,8 @@ insert into radionica (sifra,naziv,datum_osnutka) values
 (null,'elektrika','2018-04-16'),
 (null,'limarija','2018-04-16');
 
-
+insert into zaposlenik (sifra,ime,prezime,ulica_i_broj,mjesto,broj_mobitela,email,datum_rođenja,datum_pocetka_rada,oib,broj_ugovora) values
+(null,'Ivica','Ivić','Jadranska ulica 5','Vinkovci','098111111','ivicaivic@gmail.com','1964-5-25','2018-04-16','12345678901','1');
 
 
 
